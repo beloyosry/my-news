@@ -22,6 +22,7 @@ const handlerOrientationChange = (e) => {
 };
 
 handlerOrientationChange();
+
 mql.onchange = (e) => {
     handlerOrientationChange(e);
 };
